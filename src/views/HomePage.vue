@@ -1,24 +1,17 @@
 <template>
     <div class="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
-        <h1 class="text-2xl mb-5">
-            Template Vue / Vite :
-            <a
-                href="https://github.com/TheoLaperrouse/TemplateViteVue3"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="text-white"
+        <h1 class="text-2xl mb-5">Bienvenue sur le jeu de dés</h1>
+        <!-- Boutons de navigation -->
+        <div class="space-x-4">
+            <router-link to="/biskit" class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700 transition duration-300">
+                Biskit
+            </router-link>
+            <router-link
+                to="/doubliskit"
+                class="px-4 py-2 bg-green-500 rounded hover:bg-green-700 transition duration-300"
             >
-                <FontAwesomeIcon :icon="['fab', 'github']" /> GitHub
-            </a>
-        </h1>
+                Doubliskit
+            </router-link>
+        </div>
     </div>
 </template>
-<script>
-import FontAwesomeIcon from '../../fontawesome';
-
-export default {
-    components: {
-        FontAwesomeIcon,
-    },
-};
-</script>
