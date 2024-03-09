@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.2...v1.0.3) (2024-03-09)
+
+
+### Bug Fixes
+
+* Label on two lines ([b38c7d7](https://github.com/TheoLaperrouse/DoubliskitWeb/commit/b38c7d713a8c5eaa95869bf4cc51167508c5b710))
+
 ## [1.0.2](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.1...v1.0.2) (2024-03-09)
 
 
