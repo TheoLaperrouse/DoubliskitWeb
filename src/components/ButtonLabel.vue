@@ -6,7 +6,7 @@
         >
             Lancer les dés
         </button>
-        <p class="result-label">{{ actionLabel }}</p>
+        <p class="result-label" v-html="actionLabel"></p>
     </div>
 </template>
 
