@@ -7,7 +7,6 @@ export function useDices(numberOfDice = 2) {
         for (let i = 0; i < dices.value.length; i++) {
             dices.value[i] = Math.floor(Math.random() * 6) + 1; // Générer un nombre aléatoire entre 1 et 6
         }
-        console.log(dices);
     };
 
     return { dices, rollDices };
