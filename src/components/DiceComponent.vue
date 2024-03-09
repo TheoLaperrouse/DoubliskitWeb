@@ -3,8 +3,8 @@
         <div v-if="value === 1 || value === 3 || value === 5" class="dot center"></div>
         <div v-if="value > 1" class="dot top-left"></div>
         <div v-if="value > 1" class="dot bottom-right"></div>
-        <div v-if="value === 6" class="dot top-center"></div>
-        <div v-if="value === 6" class="dot bottom-center"></div>
+        <div v-if="value === 6" class="dot left-center"></div>
+        <div v-if="value === 6" class="dot right-center"></div>
         <div v-if="value === 4 || value === 5 || value === 6" class="dot top-right"></div>
         <div v-if="value === 4 || value === 5 || value === 6" class="dot bottom-left"></div>
     </div>
@@ -68,11 +68,11 @@ defineProps({
             left: 10px;
         }
 
-        &.top-center {
+        &.left-center {
             position: absolute;
-            top: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+            left: 10px;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         &.top-right {
@@ -94,11 +94,11 @@ defineProps({
             left: 10px;
         }
 
-        &.bottom-center {
+        &.right-center {
             position: absolute;
-            bottom: 10px;
-            left: 50%;
-            transform: translateX(-50%);
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         &.bottom-right {
