@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.3...v1.0.4) (2024-03-09)
+
+
+### Bug Fixes
+
+* adjust css to add point of 6 to right/left center ([24b837c](https://github.com/TheoLaperrouse/DoubliskitWeb/commit/24b837c82f41cf2876303e4d58437b5daf831f77))
+
 ## [1.0.3](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.2...v1.0.3) (2024-03-09)
 
 
