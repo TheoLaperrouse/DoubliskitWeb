@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.1...v1.0.2) (2024-03-09)
+
+
+### Bug Fixes
+
+* Fix deployment ([a94fd40](https://github.com/TheoLaperrouse/DoubliskitWeb/commit/a94fd4029f5bc2a37ae4fcdf2b4e5eaab159256f))
+
 ## [1.0.1](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.0...v1.0.1) (2024-03-09)
 
 
