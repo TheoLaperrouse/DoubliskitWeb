@@ -1,17 +1,22 @@
 <template>
-    <div class="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center">
+    <div>
         <h1 class="text-2xl mb-5">Bienvenue sur le jeu de dés</h1>
         <!-- Boutons de navigation -->
-        <div class="space-x-4">
-            <router-link to="/biskit" class="px-4 py-2 bg-blue-500 rounded hover:bg-blue-700 transition duration-300">
-                Biskit
-            </router-link>
+        <div class="space-x-4 text-black">
             <router-link
-                to="/doubliskit"
-                class="px-4 py-2 bg-green-500 rounded hover:bg-green-700 transition duration-300"
+                v-for="link in gameLinks"
+                :key="link.name"
+                :to="link.path"
+                class="button bg-beige hover:bg-beige-hover px-3 py-2 rounded"
             >
-                Doubliskit
+                {{ link.name }}
             </router-link>
         </div>
     </div>
 </template>
+<script setup>
+const gameLinks = [
+    { name: 'Biskit', path: '/biskit' },
+    { name: 'Doubliskit', path: '/doubliskit' },
+];
+</script>
