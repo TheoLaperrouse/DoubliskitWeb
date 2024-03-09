@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.0...v1.0.1) (2024-03-09)
+
+
+### Bug Fixes
+
+* Fix deployment / Other Favicon ([3681196](https://github.com/TheoLaperrouse/DoubliskitWeb/commit/36811966dd88ddf68c8f3b6f7c70c4783e646c7f))
+
 # 1.0.0 (2024-03-09)
 
 
