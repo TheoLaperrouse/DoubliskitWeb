@@ -1,6 +1,6 @@
 <template>
     <div>
-        <ButtonLabel class="rotate-180 py-5" @click="rollDices" />
+        <ButtonLabel class="rotate-180 py-5" :actionLabel="actionLabel" @click="rollDices" />
         <div class="grid grid-cols-2 gap-4">
             <Dice v-for="(dice, index) in dices" :key="index" :value="dice" :color="index <= 1 ? 'black' : 'white'" />
         </div>

@@ -7,7 +7,7 @@
                 v-for="link in gameLinks"
                 :key="link.name"
                 :to="link.path"
-                class="button bg-beige hover:bg-beige-hover px-3 py-2 rounded"
+                class="bg-beige hover:bg-beige-hover px-3 py-2 rounded"
             >
                 {{ link.name }}
             </router-link>
