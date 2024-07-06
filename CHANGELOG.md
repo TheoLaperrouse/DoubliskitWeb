@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.4...v1.1.0) (2024-07-06)
+
+
+### Features
+
+* add priority label and resolve new line bug ([549d1a7](https://github.com/TheoLaperrouse/DoubliskitWeb/commit/549d1a72f1f0dc70c696785d04132a94bdffaefa))
+
 ## [1.0.4](https://github.com/TheoLaperrouse/DoubliskitWeb/compare/v1.0.3...v1.0.4) (2024-03-09)
 
 
